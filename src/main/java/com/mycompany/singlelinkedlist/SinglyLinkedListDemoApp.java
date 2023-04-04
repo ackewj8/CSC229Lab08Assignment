@@ -25,7 +25,7 @@ public class SinglyLinkedListDemoApp {
 
       // Output list
       System.out.print("List after adding nodes: ");
-      numList.printList();
+      //numList.printList();
 
       // Remove the tail node, then the head node
       numList.removeAfter(nodeE);
@@ -33,6 +33,6 @@ public class SinglyLinkedListDemoApp {
 
       // Output final list
       System.out.print("List after removing nodes: ");
-      numList.printList();
+      //numList.printList();
    }
 }
